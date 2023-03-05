@@ -10,10 +10,10 @@ A powerful &amp; flexible crawler that ensures dynamic YouTubeMusic response to 
 [] New Releases   [Complex]
 [] Home           [Complex]
 [] Explore        [Complex]
-[-] Up Next
-[-] Lyrics
-[-] Charts         [Complex]
-[-] Artist         [Complex]
-[-] Related        [Complex]
+[x] Up Next
+[x] Lyrics
+[x] Charts         [Complex]
+[x] Artist         [Complex]
+[x] Related        [Complex]
 
--> (8/13) Completed
+`->` (8/13) Completed
