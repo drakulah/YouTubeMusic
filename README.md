@@ -2,18 +2,18 @@
 A powerful &amp; flexible crawler that ensures dynamic YouTubeMusic response to defined structures
 
 ## Tasks
-- [ ] Album
-- [ ] Search
-- [ ] Player
-- [ ] Playlist
-- [ ] Moods & Gernes
-- [ ] New Releases   `Complex`
-- [ ] Home           `Complex`
-- [ ] Explore        `Complex`
-- [x] Up Next
-- [x] Lyrics
-- [x] Charts         `Complex`
-- [x] Artist         `Complex`
-- [x] Related        `Complex`
+- [x] Album
+- [x] Search
+- [x] Player
+- [x] Playlist
+- [x] Moods & Gernes
+- [x] New Releases   `Complex`
+- [x] Home           `Complex`
+- [x] Explore        `Complex`
+- [ ] Up Next
+- [ ] Lyrics
+- [ ] Charts         `Complex`
+- [ ] Artist         `Complex`
+- [ ] Related        `Complex`
 
 `->` (8/13) Completed
