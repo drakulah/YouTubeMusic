@@ -1,5 +1,5 @@
 # YouTubeMusic
-A powerful and flexible crawler that ensures dynamic YouTubeMusic response to defined structures
+A powerful and flexible crawler that utilizes YouTubeMusic Android and YouTubeMusic Web API to ensures dynamic response to defined structures.
 
 ## Tasks
 - [x] Album
