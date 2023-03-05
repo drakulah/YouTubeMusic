@@ -1,0 +1,101 @@
+{
+  "details": {
+    "id": "ORrFJ63nlcA",
+    "title": "Perfect",
+    "views": "248422861",
+    "author": "Ed Sheeran",
+    "channelId": "UClmXPfaYhXOYsNn_QUyheWQ",
+    "duration": 263,
+    "isLive": false,
+    "playable": true,
+    "thumbnails": [
+      {
+        "url": "https://lh3.googleusercontent.com/xpDEOr2TeqEn1QpXosXhqtj149FzNnTgAG3oqPnpTxTbQk-oceO90Sz4Axq0s4Jp_QLGQha_um6_EG3WGQ=w60-h60-l90-rj",
+        "width": 60,
+        "height": 60
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/xpDEOr2TeqEn1QpXosXhqtj149FzNnTgAG3oqPnpTxTbQk-oceO90Sz4Axq0s4Jp_QLGQha_um6_EG3WGQ=w120-h120-l90-rj",
+        "width": 120,
+        "height": 120
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/xpDEOr2TeqEn1QpXosXhqtj149FzNnTgAG3oqPnpTxTbQk-oceO90Sz4Axq0s4Jp_QLGQha_um6_EG3WGQ=w180-h180-l90-rj",
+        "width": 180,
+        "height": 180
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/xpDEOr2TeqEn1QpXosXhqtj149FzNnTgAG3oqPnpTxTbQk-oceO90Sz4Axq0s4Jp_QLGQha_um6_EG3WGQ=w302-h302-l90-rj",
+        "width": 302,
+        "height": 302
+      },
+      {
+        "url": "https://lh3.googleusercontent.com/xpDEOr2TeqEn1QpXosXhqtj149FzNnTgAG3oqPnpTxTbQk-oceO90Sz4Axq0s4Jp_QLGQha_um6_EG3WGQ=w544-h544-l90-rj",
+        "width": 544,
+        "height": 544
+      }
+    ]
+  },
+  "audioFormats": [
+    {
+      "url": "https://rr2---sn-ab5sznlk.googlevideo.com/videoplayback?expire=1676717921&ei=AVvwY4XQEMuE8wTRjYXAAw&ip=2a0d%3A5600%3A41%3Ae000%3A%3Aa095&id=o-ACf5Z4Ko0SXzISdd_OztF-u301EnsFadnZViqusebpgw&itag=251&source=youtube&requiressl=yes&mh=3w&mm=31%2C29&mn=sn-ab5sznlk%2Csn-ab5l6nrs&ms=au%2Crdu&mv=m&mvi=2&pl=48&gcr=us&initcwndbps=917500&vprv=1&mime=audio%2Fwebm&gir=yes&clen=4514792&dur=263.421&lmt=1574800225124067&mt=1676695977&fvip=5&keepalive=yes&fexp=24007246&c=ANDROID_MUSIC&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAOtobg2hhzIAOE9j9erFj18eyD_bR3r2AIg_YsfyiXD8AiA2ASWdFAHXtHI_0E4IX73jRgQSy68O03muoAyFscKHvQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAP1RAWamhqJJJ02S6NTtH4VnnvZZy3xWeuaMpxjHSZUvAiBPgXD3BU0q-9LuQuxwDmRu1oXm20JDdBSlRFjzSfheow%3D%3D",
+      "contentType": "audio/webm",
+      "audioCodec": "opus",
+      "audioChannels": 2,
+      "audioSampleRate": "48000",
+      "avgBitrate": 137112,
+      "bitrate": 145695,
+      "approxDuration": 263421,
+      "approxSize": 4514792,
+      "lastModified": "1574800225124067"
+    },
+    {
+      "url": "https://rr2---sn-ab5sznlk.googlevideo.com/videoplayback?expire=1676717921&ei=AVvwY4XQEMuE8wTRjYXAAw&ip=2a0d%3A5600%3A41%3Ae000%3A%3Aa095&id=o-ACf5Z4Ko0SXzISdd_OztF-u301EnsFadnZViqusebpgw&itag=140&source=youtube&requiressl=yes&mh=3w&mm=31%2C29&mn=sn-ab5sznlk%2Csn-ab5l6nrs&ms=au%2Crdu&mv=m&mvi=2&pl=48&gcr=us&initcwndbps=917500&vprv=1&mime=audio%2Fmp4&gir=yes&clen=4265448&dur=263.399&lmt=1628119073058525&mt=1676695977&fvip=5&keepalive=yes&fexp=24007246&c=ANDROID_MUSIC&txp=5532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRAIgUpNZH9sCqMpi1xily4ufk4IZI-p3qXiH49ckrZUJZ1YCIFvNBhew6Y2yWfiZ6R-RxTNTy3D87nBHTwlXSBqXhcfh&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAP1RAWamhqJJJ02S6NTtH4VnnvZZy3xWeuaMpxjHSZUvAiBPgXD3BU0q-9LuQuxwDmRu1oXm20JDdBSlRFjzSfheow%3D%3D",
+      "contentType": "audio/mp4",
+      "audioCodec": "mp4a.40.2",
+      "audioChannels": 2,
+      "audioSampleRate": "44100",
+      "avgBitrate": 129550,
+      "bitrate": 131498,
+      "approxDuration": 263399,
+      "approxSize": 4265448,
+      "lastModified": "1628119073058525"
+    },
+    {
+      "url": "https://rr2---sn-ab5sznlk.googlevideo.com/videoplayback?expire=1676717921&ei=AVvwY4XQEMuE8wTRjYXAAw&ip=2a0d%3A5600%3A41%3Ae000%3A%3Aa095&id=o-ACf5Z4Ko0SXzISdd_OztF-u301EnsFadnZViqusebpgw&itag=250&source=youtube&requiressl=yes&mh=3w&mm=31%2C29&mn=sn-ab5sznlk%2Csn-ab5l6nrs&ms=au%2Crdu&mv=m&mvi=2&pl=48&gcr=us&initcwndbps=917500&vprv=1&mime=audio%2Fwebm&gir=yes&clen=2319310&dur=263.421&lmt=1574800240091030&mt=1676695977&fvip=5&keepalive=yes&fexp=24007246&c=ANDROID_MUSIC&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhAOrMirpw-R0cKqDXgl4vFrDN1gGTEaxyWQMAfopG8WrDAiBtFNy7a1xghPLqAzLoFJJWIXwAYAjNCK4DG045XifDjA%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAP1RAWamhqJJJ02S6NTtH4VnnvZZy3xWeuaMpxjHSZUvAiBPgXD3BU0q-9LuQuxwDmRu1oXm20JDdBSlRFjzSfheow%3D%3D",
+      "contentType": "audio/webm",
+      "audioCodec": "opus",
+      "audioChannels": 2,
+      "audioSampleRate": "48000",
+      "avgBitrate": 70436,
+      "bitrate": 75845,
+      "approxDuration": 263421,
+      "approxSize": 2319310,
+      "lastModified": "1574800240091030"
+    },
+    {
+      "url": "https://rr2---sn-ab5sznlk.googlevideo.com/videoplayback?expire=1676717921&ei=AVvwY4XQEMuE8wTRjYXAAw&ip=2a0d%3A5600%3A41%3Ae000%3A%3Aa095&id=o-ACf5Z4Ko0SXzISdd_OztF-u301EnsFadnZViqusebpgw&itag=249&source=youtube&requiressl=yes&mh=3w&mm=31%2C29&mn=sn-ab5sznlk%2Csn-ab5l6nrs&ms=au%2Crdu&mv=m&mvi=2&pl=48&gcr=us&initcwndbps=917500&vprv=1&mime=audio%2Fwebm&gir=yes&clen=1762266&dur=263.421&lmt=1574800223579704&mt=1676695977&fvip=5&keepalive=yes&fexp=24007246&c=ANDROID_MUSIC&txp=5531432&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIhANJ8Wrt2flP7JwPsu1hrMGm4Jp8sHtwMSbP91DAxo43bAiBPPcwMlIaTE_OmttNYCFL3EDjPnbDxHWSDq6rjeYKxXw%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAP1RAWamhqJJJ02S6NTtH4VnnvZZy3xWeuaMpxjHSZUvAiBPgXD3BU0q-9LuQuxwDmRu1oXm20JDdBSlRFjzSfheow%3D%3D",
+      "contentType": "audio/webm",
+      "audioCodec": "opus",
+      "audioChannels": 2,
+      "audioSampleRate": "48000",
+      "avgBitrate": 53519,
+      "bitrate": 58464,
+      "approxDuration": 263421,
+      "approxSize": 1762266,
+      "lastModified": "1574800223579704"
+    },
+    {
+      "url": "https://rr2---sn-ab5sznlk.googlevideo.com/videoplayback?expire=1676717921&ei=AVvwY4XQEMuE8wTRjYXAAw&ip=2a0d%3A5600%3A41%3Ae000%3A%3Aa095&id=o-ACf5Z4Ko0SXzISdd_OztF-u301EnsFadnZViqusebpgw&itag=139&source=youtube&requiressl=yes&mh=3w&mm=31%2C29&mn=sn-ab5sznlk%2Csn-ab5l6nrs&ms=au%2Crdu&mv=m&mvi=2&pl=48&gcr=us&initcwndbps=917500&vprv=1&mime=audio%2Fmp4&gir=yes&clen=1608428&dur=263.399&lmt=1628119073008705&mt=1676695977&fvip=5&keepalive=yes&fexp=24007246&c=ANDROID_MUSIC&txp=5532434&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cgcr%2Cvprv%2Cmime%2Cgir%2Cclen%2Cdur%2Clmt&sig=AOq0QJ8wRQIgWP1dMRqyQ8jSRFjcdIurGZdDZjDxJUBvXEkWq1YwIrkCIQDhO2gl3pKj8O1LlO1i7vWLRFeTouUb365SSuk8UrNiKQ%3D%3D&lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&lsig=AG3C_xAwRQIhAP1RAWamhqJJJ02S6NTtH4VnnvZZy3xWeuaMpxjHSZUvAiBPgXD3BU0q-9LuQuxwDmRu1oXm20JDdBSlRFjzSfheow%3D%3D",
+      "contentType": "audio/mp4",
+      "audioCodec": "mp4a.40.5",
+      "audioChannels": 2,
+      "audioSampleRate": "22050",
+      "avgBitrate": 48851,
+      "bitrate": 50419,
+      "approxDuration": 263399,
+      "approxSize": 1608428,
+      "lastModified": "1628119073008705"
+    }
+  ]
+}
