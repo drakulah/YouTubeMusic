@@ -16,4 +16,4 @@ A powerful &amp; flexible crawler that ensures dynamic YouTubeMusic response to 
 - [ ] Artist         `Complex`
 - [ ] Related        `Complex`
 
-`->` (8/13) Completed
+`-> (8/13) Completed`
