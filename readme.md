@@ -5,7 +5,6 @@ A powerful and flexible crawler that ensures dynamic YouTubeMusic response to de
 
 We will be covering all the following tasks in the further days.
 
-|--------------------------------------|
 | Status | Tasks          | Difficulty |
 |--------|----------------|------------|
 |   [x]  | Album          | Easy       |
@@ -21,6 +20,5 @@ We will be covering all the following tasks in the further days.
 |   [ ]  | Lyrics         | Easy       |
 |   [ ]  | Charts         | Hard       |
 |   [ ]  | Related        | Hard       |
-|--------------------------------------|
 
 `-> (8/13) Completed`
