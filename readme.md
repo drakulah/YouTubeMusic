@@ -5,20 +5,20 @@ A powerful and flexible crawler that ensures dynamic YouTubeMusic response to de
 
 We will be covering all the following tasks in the further days.
 
-| Status | Tasks          | Difficulty |
-|--------|----------------|------------|
-|   [x]  | Album          | Easy       |
-|   [x]  | Search         | Easy       |
-|   [x]  | Player         | Easy       |
-|   [x]  | Playlist       | Easy       |
-|   [x]  | Moods & Gernes | Easy       |
-|   [x]  | New Releases   | Hard       |
-|   [x]  | Home           | Hard       |
-|   [x]  | Explore        | Hard       |
-|   [x]  | Artist         | Hard       |
-|   [ ]  | Up Next        | Easy       |
-|   [ ]  | Lyrics         | Easy       |
-|   [ ]  | Charts         | Hard       |
-|   [ ]  | Related        | Hard       |
+| Status                 | Tasks          | Difficulty |
+|------------------------|----------------|------------|
+| <ul><li>[x]</li></ul>  | Album          | Easy       |
+| <ul><li>[x]</li></ul>  | Search         | Easy       |
+| <ul><li>[x]</li></ul>  | Player         | Easy       |
+| <ul><li>[x]</li></ul>  | Playlist       | Easy       |
+| <ul><li>[x]</li></ul>  | Moods & Gernes | Easy       |
+| <ul><li>[x]</li></ul>  | New Releases   | Hard       |
+| <ul><li>[x]</li></ul>  | Home           | Hard       |
+| <ul><li>[x]</li></ul>  | Explore        | Hard       |
+| <ul><li>[x]</li></ul>  | Artist         | Hard       |
+| <ul><li>[ ]</li></ul>  | Up Next        | Easy       |
+| <ul><li>[ ]</li></ul>  | Lyrics         | Easy       |
+| <ul><li>[ ]</li></ul>  | Charts         | Hard       |
+| <ul><li>[ ]</li></ul>  | Related        | Hard       |
 
-`-> (8/13) Completed`
+(8/13) Completed
