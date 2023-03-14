@@ -1,19 +1,26 @@
 # YouTubeMusic
-A powerful and flexible crawler that utilizes YouTubeMusic Android and YouTubeMusic Web API which ensures dynamic response to defined structures.
+A powerful and flexible crawler that ensures dynamic YouTubeMusic response to defined structures.
 
-## Tasks
-- [x] Album
-- [x] Search
-- [x] Player
-- [x] Playlist
-- [x] Moods & Gernes
-- [x] New Releases   `Complex`
-- [x] Home           `Complex`
-- [x] Explore        `Complex`
-- [ ] Up Next
-- [ ] Lyrics
-- [ ] Charts         `Complex`
-- [ ] Artist         `Complex`
-- [ ] Related        `Complex`
+## Coverage
+
+We will be covering all the following tasks in the further days.
+
+|--------------------------------------|
+| Status | Tasks          | Difficulty |
+|--------|----------------|------------|
+|   [x]  | Album          | Easy       |
+|   [x]  | Search         | Easy       |
+|   [x]  | Player         | Easy       |
+|   [x]  | Playlist       | Easy       |
+|   [x]  | Moods & Gernes | Easy       |
+|   [x]  | New Releases   | Hard       |
+|   [x]  | Home           | Hard       |
+|   [x]  | Explore        | Hard       |
+|   [x]  | Artist         | Hard       |
+|   [ ]  | Up Next        | Easy       |
+|   [ ]  | Lyrics         | Easy       |
+|   [ ]  | Charts         | Hard       |
+|   [ ]  | Related        | Hard       |
+|--------------------------------------|
 
 `-> (8/13) Completed`

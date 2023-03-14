@@ -11,6 +11,7 @@ import { CONTEXT_ANDROID, CONTEXT_WEB } from './declarations/context.ts'
 import parseAlbum from './parsers/page/parseAlbum.ts'
 import parsePlaylist from './parsers/page/parsePlaylist.ts'
 import parsePlayer from './parsers/page/parsePlayer.ts'
+import parseArtist from './parsers/page/parseArtist.ts'
 
 export default class YouTubeMusic {
 
@@ -70,6 +71,21 @@ export default class YouTubeMusic {
       responseAsJson = undefined
     }
     return responseAsJson ? parseHome(responseAsJson) : undefined
+  }
+
+  async artist(browseId: string) {
+    let responseAsJson
+    try {
+      const response = await this.clientWeb.post(Endpoint.BROWSE, (it) => {
+        if (isNullOrEmpty(browseId)) throw new Error('Browse Id is required')
+        it.headers.append('referer', Referer.EXPLORE)
+        it.body.setBody({ browseId, context: this.ctxWeb })
+      })
+      responseAsJson = await response.json()
+    } catch (_) {
+      responseAsJson = undefined
+    }
+    return responseAsJson ? parseArtist(responseAsJson) : undefined
   }
 
   async explore(continuation?: string) {
@@ -203,10 +219,10 @@ export default class YouTubeMusic {
   async upNext(videoId: string, playlistId: string) {
     let responseAsJson
     try {
-      const response = await this.clientAndroid.post(Endpoint.NEXT, (it) => {
+      const response = await this.clientWeb.post(Endpoint.NEXT, (it) => {
         if (isNullOrEmpty(videoId)) throw new Error('Video Id is required')
         it.headers.append('referer', Referer.DEFAULT)
-        it.body.setBody({ videoId, playlistId, context: this.ctxAndroid })
+        it.body.setBody({ videoId, playlistId, context: this.ctxWeb })
       })
       responseAsJson = await response.json()
     } catch (_) {

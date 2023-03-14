@@ -25,6 +25,8 @@ export default (raw: any): ArtistCard | undefined => {
       _type = parseItemType(sharedRaw?.navigationEndpoint)
       _browseId = sharedRaw?.navigationEndpoint?.browseEndpoint?.browseId
       _title = sharedRaw?.flexColumns?.[0]?.musicResponsiveListItemFlexColumnRenderer?.text?.runs?.[0]?.text
+        ?? sharedRaw?.title?.runs?.[0]?.text
+      _subscribers = isChannelSubscribers(sharedRaw?.subtitle?.runs?.[0]?.text) ? sharedRaw?.subtitle?.runs?.[0]?.text : undefined
 
       LoopThrough(sharedRaw?.flexColumns?.[1]?.musicResponsiveListItemFlexColumnRenderer?.text?.runs, (_, sharedDetail: any) => {
 
