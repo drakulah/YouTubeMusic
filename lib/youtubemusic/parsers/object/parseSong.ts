@@ -22,7 +22,7 @@ export interface Song {
   type: ItemType,
   isExplicit: boolean,
   durationText?: string,
-  album: ShortAlbum,
+  album?: ShortAlbum,
   uploaders: ShortUploader[],
   thumbnails: Thumbnail[]
   menu: Menu
@@ -35,11 +35,44 @@ export default (raw: any): Song | undefined => {
     const _badges = parseBadges(raw?.badges)
 
     // Variables
-    let _id: string
-    let _title: string
+    let _id: string = raw?.navigationEndpoint?.watchEndpoint?.videoId
+    let _title: string = raw?.title?.runs?.[0]?.text
     let _album: ShortAlbum
-    let _durationText: string
+    let _durationText: string = raw?.lengthText?.runs?.[0]?.text
     let _type: ItemType = 'SONG'
+
+    LoopThrough(raw?.shortBylineText.runs ?? raw?.longBylineText.runs, (_, sharedDetail: any) => {
+
+      const __type = parseItemType(sharedDetail?.navigationEndpoint)
+      const _txt = ErrOnNull(sharedDetail?.text)?.trim()
+
+      When(__type,
+        'SONG', 'VIDEO', () => {
+          _type = __type
+          _title = _txt
+          _id = ErrOnNull(sharedDetail?.navigationEndpoint?.watchEndpoint?.videoId)
+        },
+        'ALBUM', () => {
+          _album = {
+            name: _txt,
+            browseId: sharedDetail?.navigationEndpoint?.browseEndpoint?.browseId
+          }
+        },
+        'ARTIST', 'USER_CHANNEL' , () => {
+          _artists.push({
+            name: _txt,
+            isArtist: __type === 'ARTIST',
+            browseId: sharedDetail?.navigationEndpoint?.browseEndpoint?.browseId
+          })
+        },
+        'else', () => {
+          if (isSeperatorText(_txt) || isItemType(_txt)) return
+          else if (isDurationText(_txt)) _durationText = _txt
+          else _artists.push({ name: _txt, isArtist: false })
+        }
+      )
+
+    })
 
     LoopThrough(MixArrays(raw?.flexColumns, raw?.fixedColumns), (_, eachDetail: any) => {
 

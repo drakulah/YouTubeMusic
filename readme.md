@@ -16,7 +16,7 @@ We will be covering all the following tasks in the further days.
 | :heavy_check_mark: | Home           | Hard       |
 | :heavy_check_mark: | Explore        | Hard       |
 | :heavy_check_mark: | Artist         | Hard       |
-| :x:                | Up Next        | Easy       |
+| :heavy_check_mark: | Up Next        | Easy       |
 | :x:                | Lyrics         | Easy       |
 | :x:                | Charts         | Hard       |
 | :x:                | Related        | Hard       |

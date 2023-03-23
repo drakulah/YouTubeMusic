@@ -3,15 +3,16 @@ import Referer from './declarations/referer.ts'
 import Endpoint from './declarations/endpoint.ts'
 import { isNullOrEmpty } from '../tools/inline.ts'
 import parseHome from './parsers/page/parseHome.ts'
+import parseAlbum from './parsers/page/parseAlbum.ts'
 import parseSearch from './parsers/page/parseSearch.ts'
+import parsePlayer from './parsers/page/parsePlayer.ts'
+import parseArtist from './parsers/page/parseArtist.ts'
 import parseExplore from './parsers/page/parseExplore.ts'
+import parsePlaylist from './parsers/page/parsePlaylist.ts'
 import parseNewReleases from './parsers/page/parseNewReleases.ts'
 import parseMoodsAndGernes from './parsers/page/parseMoodsAndGernes.ts'
 import { CONTEXT_ANDROID, CONTEXT_WEB } from './declarations/context.ts'
-import parseAlbum from './parsers/page/parseAlbum.ts'
-import parsePlaylist from './parsers/page/parsePlaylist.ts'
-import parsePlayer from './parsers/page/parsePlayer.ts'
-import parseArtist from './parsers/page/parseArtist.ts'
+import parseUpNext from './parsers/page/parseUpNext.ts'
 
 export default class YouTubeMusic {
 
@@ -216,7 +217,7 @@ export default class YouTubeMusic {
     return responseAsJson ? parsePlayer(responseAsJson) : undefined
   }
 
-  async upNext(videoId: string, playlistId: string) {
+  async upNext(playlistId: string, videoId?: string) {
     let responseAsJson
     try {
       const response = await this.clientWeb.post(Endpoint.NEXT, (it) => {
@@ -228,7 +229,7 @@ export default class YouTubeMusic {
     } catch (_) {
       responseAsJson = undefined
     }
-    return responseAsJson
+    return responseAsJson ? parseUpNext(responseAsJson) : undefined
   }
 
 }
