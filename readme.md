@@ -21,4 +21,4 @@ We will be covering all the following tasks in the further days.
 | :x:                | Charts         | Hard       |
 | :x:                | Related        | Hard       |
 
-[9 / 13] Completed
+[10 / 13] Completed
