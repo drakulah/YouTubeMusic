@@ -51,14 +51,14 @@ export default (rawRes: any): Search => {
       
     })
 
-    // Parse continuation
-    _continuation = parseContinuationComp(sharedSection?.continuations?.[0])
-
     // Loop through all components
     LoopThrough(sharedSection?.contents, (_, eachComponent: any) => {
         
       // Parse mainly interacted items
       Let(eachComponent?.musicShelfRenderer, (sharedContainer) => {
+
+        // Parse continuation
+        _continuation = parseContinuationComp(sharedContainer?.continuations?.[0])
 
         const _contents: Content[] = []
 

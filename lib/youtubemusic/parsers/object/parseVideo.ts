@@ -38,8 +38,8 @@ export default (raw: any): Video | undefined => {
       _id = sharedRaw?.navigationEndpoint?.watchEndpoint?.videoId
 
       LoopThrough(sharedRaw?.subtitle?.runs
-        ?? raw?.shortBylineText.runs
-        ?? raw?.longBylineText.runs, (_, sharedDetail: any) => {
+        ?? raw?.shortBylineText?.runs
+        ?? raw?.longBylineText?.runs, (_, sharedDetail: any) => {
 
         const __type = parseItemType(sharedDetail?.navigationEndpoint)
         const _txt = ErrOnNull(sharedDetail?.text)?.trim()

@@ -41,7 +41,7 @@ export default (raw: any): Song | undefined => {
     let _durationText: string = raw?.lengthText?.runs?.[0]?.text
     let _type: ItemType = 'SONG'
 
-    LoopThrough(raw?.shortBylineText.runs ?? raw?.longBylineText.runs, (_, sharedDetail: any) => {
+    LoopThrough(raw?.shortBylineText?.runs ?? raw?.longBylineText?.runs, (_, sharedDetail: any) => {
 
       const __type = parseItemType(sharedDetail?.navigationEndpoint)
       const _txt = ErrOnNull(sharedDetail?.text)?.trim()
